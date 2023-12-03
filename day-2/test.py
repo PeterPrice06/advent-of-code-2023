@@ -9,12 +9,12 @@ class TestSolution(unittest.TestCase):
     def test_simple(self) -> None:
         lines = file_read_helper('simple_input.txt')
         result = self.solution.solve(lines)
-        self.assertEqual(result, 142)
+        self.assertEqual(result, 8)
 
     def test_long(self) -> None:
         lines = file_read_helper('long_input.txt')
         result = self.solution.solve(lines)
-        self.assertEqual(result, 56108)
+        self.assertEqual(result, 2486)
 
 def file_read_helper(filename: str) -> List[str]:
     lines = []
