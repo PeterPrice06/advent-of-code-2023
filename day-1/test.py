@@ -24,7 +24,7 @@ class TestSolution(unittest.TestCase):
     def test_long_part2(self) -> None:
         lines = file_read_helper('long_input.txt')
         result = self.solution.solve_part2(lines)
-        self.assertEqual(result, '?')
+        self.assertEqual(result, 55652)
 
 
 
